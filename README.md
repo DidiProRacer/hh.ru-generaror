@@ -1,3 +1,45 @@
 # hh.ru-generator
 
-This project is designed to generate content for hh.ru, a popular job search platform. It allows users to create professional resumes and cover letters easily and efficiently.
+Userscript для генерации сопроводительных писем на hh.ru с использованием современных AI-моделей.
+
+## Возможности
+
+- Генерация персонализированных сопроводительных писем
+- Поддержка различных AI-моделей (Qwen, LLama, Mistral)
+- Интерактивный UI с анимациями
+- Автосохранение настроек
+- Поддержка стриминга и "печатающего" эффекта
+
+## Установка
+
+1. Установите расширение для работы с userscripts (например, Tampermonkey)
+2. [Нажмите здесь для установки скрипта](https://github.com/DidiProRacer/hh.ru-generaror/raw/main/src/hh-cover-letter.user.js)
+3. Откройте любую вакансию на hh.ru
+4. Нажмите кнопку "Сгенерировать сопроводительное"
+
+## Настройка
+
+1. Откройте настройки скрипта (⚙️)
+2. Введите свой API ключ от IO Intelligence
+3. Выберите предпочитаемую модель
+4. Настройте базовое сопроводительное письмо
+
+## Поддерживаемые модели
+
+- Qwen/Qwen3-Next-80B-A3B-Instruct
+- meta-llama/Llama-3.3-70B-Instruct
+- mistralai/Mistral-Large-Instruct-2411
+- Qwen/Qwen3-235B-A22B-Thinking-2507
+- deepseek-ai/DeepSeek-R1-0528
+
+## Разработка
+
+Для локальной разработки:
+
+1. Склонируйте репозиторий
+2. Внесите необходимые изменения
+3. Установите скрипт локально через Tampermonkey
+
+## Лицензия
+
+MIT
